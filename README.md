@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# React 개인 과제 Lv.3
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🖥️ 프로젝트 소개
 
-## Available Scripts
+Button, Input, Modal, Select 생성을 통한 웹페이지 연습
 
-In the project directory, you can run:
+## 🎬 구현 영상
+![Jun-23-2023 12-53-09](https://github.com/ParkJe2/react-Lv3/assets/117563796/81ecbc39-d615-470f-9a9f-d87f86a7088b)
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+업로드 예정
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🕰️ 개발 기간
 
-### `yarn test`
+- 23.06.23일(금) - 23.06.24일(토)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+## 📌 구현 기능
+1. Button
+  - 6개의 button 구현
+  - `styled-components`를 이용하며, props를 적절하여 잘 활용하여 구현하기
+2. Input
+  - 2개의 일반 형식의 input 구현
+  - 3자리 수 이상의 숫자를 넣을 때마다 `콤마 ,`가 찍히도록 구현
+  - form 안에 input을 생성하고 input에 값을 입력 후 `저장` 버튼을 눌렀을 때 `{name: '입력값', price: '콤마가 없는 금액'}` 을 `alert`에 표시
+3. Modal
+  - 2개의 modal 구현
+  - 첫번째 모달 : `닫기`, `확인` 버튼이 있고, 닫기 버튼을 클릭했을 때에만 모달이 닫히는 형태
+  - 두번째 모달 : `닫기` 버튼만 있고, 닫기 버튼과 바깥 영역을 클릭했을 때 모달이 닫히는 형태
+4. Select
+  - 2개의 select 구현
+  - select를 클릭했을 때 option 들이 나오고 해당 option을 클릭하면 select의 값이 변경되는 형태
+  - 첫번째 select : 클릭했을 떄 부모 요소 크기에 option이 가려지지 않도록 구현
+  - 두번째 select : 클릭했을 대 부모 요소 크기에 option이 가려지도록 구현
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🔗 컴포넌트 구조
+- **src/App.jsx**
+- **src.components/Button,jsx**
+- **src.components/Input,jsx**
+- **src.components/modal/Modal**
+- **src.components/modal/SecondModal**
+- **src.components/select/Select**
+- **src.components/select/FirstSelect**
+- **src.components/select/SecondSelect**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ⚙️ 개발 환경 / 기술스택
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **`Node.js`**
+- **`Yarn`**
+- **`create-react-app`**
+- **`styled-components`**
+- **`redux`**
+- React
+- JavaScript
+- HTML
+- CSS
